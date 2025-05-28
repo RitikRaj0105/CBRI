@@ -1,0 +1,85 @@
+.publications-container {
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 20px;
+  }
+  
+  .publications-container h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .publications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .publication-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .publication-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .publication-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .publication-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-link:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .publications-container {
+      padding: 15px;
+    }
+  
+    .publications-container h2 {
+      font-size: 28px;
+    }
+  
+    .publication-card {
+      padding: 15px;
+    }
+  }
+  

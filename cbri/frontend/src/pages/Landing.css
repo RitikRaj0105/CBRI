@@ -1,0 +1,90 @@
+/* Main layout */
+.landing-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Full screen image */
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height */
+  overflow: hidden;
+}
+
+.full-image {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Show entire image without cropping */
+}
+
+/* Title at top */
+.overlay-title {
+  position: absolute;
+  bottom: 100px;
+  left: 20%;
+  margin-bottom: 100px;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+/* Description at bottom */
+.overlay-description {
+  position: absolute;
+  bottom: 80px;
+  left: 20%;
+  margin-bottom: 60px;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 16px;
+  border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Detection section under image */
+.detection-section {
+  background: #f7f7f7;
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.detection-section h2 {
+  font-size: 2rem;
+  color: #20415e;
+  margin-bottom: 20px;
+}
+
+.detection-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.detect-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #206a75;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.detect-btn:hover {
+  background-color: #134e5e;
+}

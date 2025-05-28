@@ -1,0 +1,10 @@
+train: C:\Users\rraj8\CBRICSIR\cbri\backend\Building data\valid
+val: C:\Users\rraj8\CBRICSIR\cbri\backend\Building data\valid
+test: C:\Users\rraj8\CBRICSIR\cbri\backend\Building data\test
+
+names: 
+  0: corrosion
+  1: crack
+  2: dampens
+  3: dampness
+  4: vegetation

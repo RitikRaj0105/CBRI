@@ -1,0 +1,84 @@
+.completed-container {
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 20px;
+  }
+  
+  .completed-container h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .completed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+  }
+  
+  .completed-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .completed-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .completed-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .completed-details {
+    padding: 15px;
+  }
+  
+  .completed-details h3 {
+    margin: 0 0 10px;
+    color: #1a1a1a;
+  }
+  
+  .completed-details p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .completed-details small {
+    font-size: 13px;
+    color: #888;
+  }
+  
+  .completed-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .status-badge {
+    background: #28a745;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 5px;
+  }
+  
+  .report-link {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .report-link:hover {
+    text-decoration: underline;
+  }
+  

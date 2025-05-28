@@ -1,0 +1,4 @@
+Class,Confidence,x1,y1,x2,y2
+vegetation,0.8152908,517,172,581,272
+vegetation,0.29625782,265,353,411,508
+vegetation,0.27512497,517,436,639,507
